@@ -1,7 +1,7 @@
 <template>
   <div class="theme-vdoing-content">
-    <div class="column-wrapper">
-      <img v-if="pageData.imgUrl" :src="$withBase(pageData.imgUrl)" />
+    <div class="column-wrapper" style="float:left">
+      <img v-if="pageData.imgUrl" :src="$withBase(pageData.imgUrl)" class="title-img" />
       <dl class="column-info">
         <dt class="title">{{ pageData.title }}</dt>
         <dd class="description" v-html="pageData.description"></dd>
@@ -180,6 +180,10 @@ dl, dd
       color var(--textColor)
       opacity 0.8
       margin 0.5rem 0
+
+.title-img
+  margin 0 0
+
 .catalogue-wrapper
   .catalogue-title
     font-size 1.45rem

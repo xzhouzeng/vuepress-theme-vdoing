@@ -27,5 +27,10 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.12.8",
     "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "markdown-it-latex": "^0.2.0",
+    "markdown-it-latex2img": "^0.0.6",
+    "vuepress-plugin-mathjax": "^1.2.8"
   }
 }
